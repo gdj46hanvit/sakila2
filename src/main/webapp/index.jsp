@@ -12,10 +12,10 @@
 		<li><a href="<%=request.getContextPath()%>/staffList.jsp">Staff List</a></li>
 		<li><a href="<%=request.getContextPath()%>/actorInfoList.jsp">actorInfo List</a></li>
 		<!-- view 7개 만들기 -->
-		<li><a href="<%=request.getContextPath()%>/actorInfoList.jsp">actorInfo List</a></li>
-		<li><a href="<%=request.getContextPath()%>/actorInfoList.jsp">actorInfo List</a></li>
-		<li><a href="<%=request.getContextPath()%>/actorInfoList.jsp">actorInfo List</a></li>
-		<li><a href="<%=request.getContextPath()%>/actorInfoList.jsp">actorInfo List</a></li>
+		<li><a href="<%=request.getContextPath()%>/customerList.jsp">customerInfo List</a></li>
+		<li><a href="<%=request.getContextPath()%>/filmList.jsp">film List</a></li>
+		<li><a href="<%=request.getContextPath()%>/nicerButSlowerList.jsp">nicerButSlower List</a></li>
+		<li><a href="<%=request.getContextPath()%>/salesByFilmList.jsp">salesByFilm List</a></li>
 	</ol>
 </body>
 </html> 
