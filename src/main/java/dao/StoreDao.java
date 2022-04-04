@@ -9,7 +9,7 @@ public class StoreDao {
 		ResultSet rs = null;
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/sakila","root","java1234");
+			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/sakila","root","java1004");
             
             /* ANSI 문법
 				SELECT 

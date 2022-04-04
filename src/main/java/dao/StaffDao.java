@@ -18,9 +18,9 @@ public class StaffDao {
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
-		try {//예외 처리
+		try {
 			Class.forName("org.mariadb.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/sakila","root","java1234");
+			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/sakila","root","java1004");
 			conn = DBUtil.getConnection();// DBUtil 내에 DB연결 호출
 			String sql ="SELECT  "
 					+ "	st1.staff_id staffId, "
