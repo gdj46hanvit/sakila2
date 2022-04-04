@@ -1,16 +1,18 @@
 package vo;
 
-public class ActorInfo {
+public class ActorInfo { // 앞으론 private를 기본으로
 	private int actorId;
 	private String firstName;
 	private String lastName;
 	private String filmInfo;
-		
+
+	// 소스에서 toString과 get,set 입력하기
 	@Override
 	public String toString() {
 		return "ActorInfo [actorId=" + actorId + ", firstName=" + firstName + ", lastName=" + lastName + ", filmInfo="
 				+ filmInfo + "]";
 	}
+
 	public int getActorId() {
 		return actorId;
 	}
@@ -35,5 +37,4 @@ public class ActorInfo {
 	public void setFilmInfo(String filmInfo) {
 		this.filmInfo = filmInfo;
 	}
-	
 }
