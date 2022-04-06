@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 </head>
 <body>
-	<div class="container bg-primary">
+	<div class="container bg-dark">
 		<jsp:include page="upMenu.jsp"></jsp:include>
 		<h1 class="text-center text-white">customer List</h1>
 		<table class="table table-bordered text-center table-striped table-dark">
